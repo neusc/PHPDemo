@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry excluding="vendor/**/test*/**|Projects/PHPbookmark/|auth_php_mysql/|code_reuse_and_function/|create_graph/|create_mysql/|date_and_time/|exceptions_process/|feedbackmail/|interact_with_apache/|object_oriented_php/|orders/|php_link_mysql/" kind="src" path=""/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>

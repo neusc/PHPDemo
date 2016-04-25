@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Book-O-Rama Catalog Search</title>
+</head>
+<body>
+<h1>Book-O-Rama Catalog Search</h1>
+<form action="results.php" method="post">
+Choose Search Type:<br/>
+<select name="searchtype">
+	<!-- 标签之间的内容在浏览器中显示，而value值被提交到服务器 -->
+	<option value="author">Author</option>
+	<option value="title">Title</option>
+	<option value="isbn">ISBN</option>
+</select>	
+<br/>
+Enter Search Term:<br/>
+<input name="searchterm" type="text" size="40"/>
+<br/>
+<input name="submit" type="submit" value="Search"/>
+<br/>
+</form>
+
+</body>
+</html>

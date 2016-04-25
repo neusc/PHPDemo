@@ -1,0 +1,7 @@
+{
+  "name" : "HttpRequest",
+  "repositories" : [ {
+    "type" : "composer",
+    "url" : "https://packagist.org/"
+  } ]
+}

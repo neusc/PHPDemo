@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Customer Feedback</h1>
+
+<p>Please tell us  what you think.</p><br/>
+<form action="processfeedback.php" method="post">	<!-- <form> 标签用于为用户输入创建 HTML 表单,能包括input、textarea等元素 -->
+<p>Your name:<br/>
+<input type="text" name="name"/></p>
+<p>Your email address:<br/>
+<input type="text" name="email"/></p>
+<p>Your feedback:<br/>
+<textarea rows="10" cols="50" name="feedback"></textarea></p><br/>
+<input type="submit" name="send" value="Send feedback"/>
+</form>
+</body>
+</html>
